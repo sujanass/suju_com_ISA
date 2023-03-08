@@ -1,0 +1,11 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+-access
++rwc
+-f
+compile_list.f
+-uvmhome
+CDNS-1.1d
++UVM_TESTNAME=C_ISA_test

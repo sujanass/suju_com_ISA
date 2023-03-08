@@ -1,0 +1,51 @@
+xrun(64): 20.09-s009: (c) Copyright 1995-2021 Cadence Design Systems, Inc.
+TOOL:	xrun(64)	20.09-s009: Started on Mar 08, 2023 at 19:12:47 IST
+xrun
+	-access +rwc
+	-f compile_list.f
+		./../../RTL/alu.sv
+		./../../RTL/data_mem.sv
+		./../../RTL/forwarding_unit.sv
+		./../../RTL/gpr.sv
+		./../../RTL/instruction_decoder.sv
+		./../../RTL/ld_hazard_detect.sv
+		./../../RTL/ld_sd_address_gen.sv
+		./../../RTL/mux2x1.sv
+		./../../RTL/top.sv
+		./../UVME/package/C_ISA_pkg.sv
+		./../UVME/top/C_ISA_top.sv
+	-uvmhome CDNS-1.1d
+	+UVM_TESTNAME=C_ISA_test
+Recompiling... reason: file '../UVME/agent/C_ISA_driver.sv' is newer than expected.
+	expected: Sat Mar  4 22:14:35 2023
+	actual:   Wed Mar  8 17:43:17 2023
+Compiling UVM packages (uvm_pkg.sv cdns_uvm_pkg.sv) using uvmhome location /tools/cadence_march2021/XCELIUM2009/tools/methodology/UVM/CDNS-1.1d
+file: ./../UVME/top/C_ISA_top.sv
+	module worklib.C_ISA_top:sv
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+		Caching library 'worklib' ....... Done
+  C_ISA_inf intf(risc_clk);
+               |
+xmelab: *E,CUVMUR (../UVME/top/C_ISA_top.sv,12|15): instance 'C_ISA_top.intf' of design unit 'C_ISA_inf' is unresolved in 'worklib.C_ISA_top:sv'.
+    .data_write_en_o(intf.data_write_en_o),
+                   |
+xmelab: *E,CUVPOM (../UVME/top/C_ISA_top.sv,19|19): Port name 'data_write_en_o' of instance 'C_ISA_top.dut' is invalid or has multiple connections and the instantiated module is defined in file '/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/top.sv'.
+    .data_write_data_o(intf.data_write_data_o),
+                     |
+xmelab: *E,CUVPOM (../UVME/top/C_ISA_top.sv,20|21): Port name 'data_write_data_o' of instance 'C_ISA_top.dut' is invalid or has multiple connections and the instantiated module is defined in file '/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/top.sv'.
+    .data_write_addr_o(intf.data_write_addr_o),
+                     |
+xmelab: *E,CUVPOM (../UVME/top/C_ISA_top.sv,21|21): Port name 'data_write_addr_o' of instance 'C_ISA_top.dut' is invalid or has multiple connections and the instantiated module is defined in file '/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/top.sv'.
+    .data_read_en_o(intf.data_read_en_o),
+                  |
+xmelab: *E,CUVPOM (../UVME/top/C_ISA_top.sv,22|18): Port name 'data_read_en_o' of instance 'C_ISA_top.dut' is invalid or has multiple connections and the instantiated module is defined in file '/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/top.sv'.
+    .data_read_addr_o(intf.data_read_addr_o),
+                    |
+xmelab: *E,CUVPOM (../UVME/top/C_ISA_top.sv,23|20): Port name 'data_read_addr_o' of instance 'C_ISA_top.dut' is invalid or has multiple connections and the instantiated module is defined in file '/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/top.sv'.
+    .id_ex_mem_data(intf.id_ex_mem_data),
+                  |
+xmelab: *E,CUVPOM (../UVME/top/C_ISA_top.sv,24|18): Port name 'id_ex_mem_data' of instance 'C_ISA_top.dut' is invalid or has multiple connections and the instantiated module is defined in file '/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/top.sv'.
+xrun: *E,ELBERR: Error during elaboration (status 1), exiting.
+TOOL:	xrun(64)	20.09-s009: Exiting on Mar 08, 2023 at 19:12:49 IST  (total: 00:00:02)

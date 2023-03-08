@@ -1,0 +1,11 @@
+1677846353 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/alu.sv
+1677846353 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/data_mem.sv
+1677846353 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/forwarding_unit.sv
+1677846353 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/gpr.sv
+1677846353 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/instruction_decoder.sv
+1677846353 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/ld_hazard_detect.sv
+1677846353 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/ld_sd_address_gen.sv
+1677846353 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/mux2x1.sv
+1677846353 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/top.sv
+1678277897 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/Verification/UVME/package/C_ISA_pkg.sv
+1678282960 /home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/Verification/UVME/top/C_ISA_top.sv

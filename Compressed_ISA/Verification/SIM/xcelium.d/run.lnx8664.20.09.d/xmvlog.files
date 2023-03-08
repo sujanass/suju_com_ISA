@@ -1,0 +1,15 @@
+//
+// File created by:  xrun
+// Do not modify this file
+//
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/alu.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/data_mem.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/forwarding_unit.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/gpr.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/instruction_decoder.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/ld_hazard_detect.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/ld_sd_address_gen.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/mux2x1.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/RTL/top.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/Verification/UVME/package/C_ISA_pkg.sv
+/home/vvtrainee42/Desktop/SUJANA/Compressed_ISA/Verification/UVME/top/C_ISA_top.sv
